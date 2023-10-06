@@ -6,8 +6,8 @@ export default function Navbar() {
         <div className='body'>
 
             <div className='logo'>
-                <p>.</p>
-                <h1>Posts&Comments</h1>
+                <Link to='/'><p>.</p></Link>
+                <Link to='/'><h1>Posts&Comments</h1></Link>
             </div>
             <div className='lista-navbar'>
                 <ul>
