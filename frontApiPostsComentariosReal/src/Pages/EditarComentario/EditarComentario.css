@@ -103,3 +103,12 @@
     font-style: normal;
     font-weight: 400;
 }
+
+.div-botao-atualizar button a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}

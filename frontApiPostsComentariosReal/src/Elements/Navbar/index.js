@@ -1,4 +1,5 @@
 import '../Navbar/Navbar.css'
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
     return (
@@ -16,7 +17,7 @@ export default function Navbar() {
                 </ul>
             </div>
             <div className='botao-navbar'>
-                <button>Post</button>
+                <button><Link to='/editcomentario'>Post</Link></button>
             </div>
 
         </div>
