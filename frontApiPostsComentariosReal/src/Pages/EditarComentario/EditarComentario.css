@@ -1,0 +1,114 @@
+.body-editarComentario {
+    background: #C2C2C2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header-voltar-editarComentario {
+    /* border: solid 3px goldenrod; */
+
+    margin: 0 auto;
+    width: 717px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.header-voltar-editarComentario h1 {
+    width: 36px;
+    height: 37px;
+    background-color: #0A1FD9;
+    border-radius: 100%;
+    font-size: 2px;
+}
+
+.header-voltar-editarComentario p {
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    width: 215px;
+    height: 34px;
+    margin-left: 10px;
+}
+
+.container-editarComentario {
+    /* border: solid 3px black; */
+
+    margin: 0 auto;
+    width: 717px;
+    height: 696px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 1px rgba(0, 0, 0, 0.50), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.referencia-center {
+    /* border: solid 3px goldenrod; */
+
+    height: 100%;
+    width: 641px;
+    margin: 0 auto;
+}
+
+.div-img {
+    width: 641px;
+    height: 235px;
+    border-radius: 15px;
+    background: #C4C4C4;
+    margin: 0 auto;
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.referencia-center input {
+    width: 641px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    padding-left: 20px;
+    background: #C4C4C4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.div-inputs {
+    margin-top: 20px;
+}
+
+.div-botao-atualizar{
+    /* border: solid red 2px; */
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.div-botao-atualizar button {
+    width: 289px;
+    height: 42px;
+    border-radius: 20px;
+    background: #0A1FD9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.div-botao-atualizar button a{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+}
