@@ -26,7 +26,19 @@ export default function EditarComentario() {
             })
     }
 
-
+    function DeletarPost(){
+        axios.delete(`http://localhost:22390/Comentarios/${id}`)
+        .then(() => {
+            if(window.confirm('Deseja deletar mesmo esse post?') == true){
+                alert('post deletado com sucesso!!!')
+                navigate("/", {replace: true})
+            }
+        })
+        .catch(() => {
+            alert('não foi possivel deletar esse post.')
+        })
+    }
+ 
     return (
         <>
             <div className='body-editarComentario'>
@@ -53,6 +65,7 @@ export default function EditarComentario() {
                         <div className='div-botao-atualizar'>
                             {/* <button><Link to='/'>Atualizar</Link></button> */}
                             <button onClick={atualizarPost}>Atualizar</button>
+                            <button onClick={DeletarPost} >Deletar</button>
                         </div>
                     </div>
                 </div>

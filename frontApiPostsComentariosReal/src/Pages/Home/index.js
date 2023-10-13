@@ -19,8 +19,6 @@ export default function Home() {
             })
     }, [])
 
-
-
     return (
         <div className='body-home'>
             <div className='container-home'>
@@ -43,9 +41,7 @@ export default function Home() {
                                 </div>
 
                                 <div className='botoes-post'>
-                                    
                                     <Link to={`/editcomentario/${comen.id}`}><button>Editar</button></Link>
-                                    <button>Deletar</button>
                                 </div>
                             </div>
                         </div>
