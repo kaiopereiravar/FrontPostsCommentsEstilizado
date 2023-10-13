@@ -9,7 +9,7 @@ export default function RoutesApp() {
         <BrowserRouter>
         <Navbar/>
             <Routes>
-                <Route path='/editcomentario' element={<EditarComentario/>}/>
+                <Route path='/editcomentario/:id' element={<EditarComentario/>}/>
                 <Route path='*' element={<Home/>}/>
             </Routes>
         </BrowserRouter>
