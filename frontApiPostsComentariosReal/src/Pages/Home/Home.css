@@ -15,7 +15,7 @@
     padding-top: 41px;
 
     /* background-color: rgba(255, 0, 0, 0.187); */
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 .container-home input::placeholder {
     width: 213.022px;
@@ -56,7 +56,7 @@
     margin: 0 auto;
 
     /* background-color: rgba(255, 0, 0, 0.187); */
-    border: 3px solid greenyellow;
+    /* border: 3px solid greenyellow; */
 }
 
 .div-post-imagem {
@@ -77,7 +77,7 @@
     width: 100%;
     max-width: 641px;
     max-height: 326px;
-    border: solid 1px rebeccapurple;
+    /* border: solid 1px rebeccapurple; */
 }
 
 .Titulo-post p {
@@ -100,7 +100,7 @@
     line-height: normal;
 
     /* background-color: rgba(255, 0, 0, 0.187); */
-    border: 3px solid rgb(47, 255, 241);
+    /* border: 3px solid rgb(47, 255, 241); */
 }
 
 .botoes-post {
@@ -108,11 +108,11 @@
     justify-content: flex-end;
     position: absolute;
     width: 100%;
-    bottom: 30px;
+    bottom: 50px;
     right: 0px;
 
     /* background-color: rgba(255, 0, 0, 0.187); */
-    border: 3px solid pink;
+    /* border: 3px solid pink; */
 }
 
 .botoes-post button:nth-child(1) {
@@ -124,12 +124,12 @@
     border: 1px solid #000;
     background: rgba(255, 0, 0, 0.65);
     margin-right: 6px;
-
-    border: 1px solid #000;
     background: #eed600;
+
+    /* border: 1px solid #000; */
 }
 .botoes-post button:hover{
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     background: #FFE500;
 }
 
@@ -147,3 +147,4 @@
     border: 1px solid #000;
     background: rgba(255, 0, 0, 0.65);
 }
+
