@@ -30,6 +30,18 @@ a{
     padding: 20px;
 }
 
+.lista-navbar ul li a{
+    color: #000;
+}
+
+.lista-navbar ul li a:hover{
+    color: #000;
+    font-weight: bold;
+    transition: 0.7s;
+    font-weight: 800;
+    font-size: 18px;
+}
+
 .botao-navbar button {
     border-radius: 10px;
     background: #0014ca;

@@ -11,13 +11,13 @@ export default function Navbar() {
             </div>
             <div className='lista-navbar'>
                 <ul>
-                    <li>Posts</li>
-                    <li>Comentar</li>
-                    <li>Duvidas</li>
+                    <li><Link to='/'>Posts</Link></li>
+                    <li><Link to='/inserircomentario'>Comentar</Link></li>
+                    <li><Link to='/'>Duvidas</Link></li>
                 </ul>
             </div>
             <div className='botao-navbar'>
-                <button><Link to='/editcomentario'>Post</Link></button>
+                <button><Link to='/inserircomentario'>Post</Link></button>
             </div>
 
         </div>
